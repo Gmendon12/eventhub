@@ -1,0 +1,48 @@
+#contents-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.content-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.content-circle{
+    height: 110px;
+    width: 110px;
+    border: 1px solid #afafb1 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.content-circle:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+#contents-flex .material-symbols-outlined{
+    font-size: 30px !important;
+    color: black;
+}
+
+.contents-text{
+    font-size: 14px;
+}
+
+@media(max-width:690px){
+    #contents-flex{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

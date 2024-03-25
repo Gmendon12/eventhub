@@ -1,0 +1,211 @@
+
+#navbar-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #FFFFFF;
+    z-index: 5000;
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+
+#navbar-contents .menu-icon{
+    display: none;
+}
+
+.menu-bar{
+    height: 200px;
+    width: 180px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    z-index: 6000;
+    border: 1px solid rgb(206, 205, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+#company-logo{
+    color: red;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#navbar-inputs{
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+#navbar-inputs:hover{
+    box-shadow: 1px 2px 5px  #a9a8b3;
+}
+
+#nav-search-text{
+    font-size: 16px;
+}
+
+#nav-location-text{
+    font-size: 16px;
+}
+
+#input-search{
+    background-color:#f8f7fa ;
+    height: 40px;
+    width: 18vw;
+    border-radius: 28px 0px 0px 28px;
+    border-right: none;
+    border: 1px solid #bcbbc4;
+    border-right: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.inputs-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+
+#vertical-line{
+    height: 25px;
+    margin: 0;
+    width: 1px;
+    background-color: #a9a8b3;
+    position: absolute;
+    left: 49%;
+    z-index: 2000;
+}
+
+#input-location{
+    background-color: #f8f7fa;
+    height: 40px;
+    width: 18vw;
+    border-radius: 0px 28px 28px 0px;
+    border-left: none;
+    border: 1px solid #a9a8b3;
+    border-left: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.navbar-links:hover{
+    border-radius: 16px;
+    background-color: #f8f7fa;
+}
+
+#nav-content-link{
+    display:flex;
+    flex-direction:row;
+    gap: 1rem;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#navbar-contents-690{
+    display: none;
+}
+
+@media(max-width : 960px){
+    #nav-link-hide-1{
+        display: none;
+    }
+    #nav-link-hide-2{
+        display: none;
+    }
+    #nav-link-hide-3{
+        display: none;
+    }
+    #nav-location-icon{
+        visibility: hidden;
+    }
+    #nav-location-text{
+        display: none;
+    }
+    #vertical-line{
+        display: none;
+    }
+    #nav-content-link{
+        gap: 10px;
+    }
+    #input-search{
+        width: 20vw;
+    }
+    #navbar-contents .menu-icon{
+        display: block;
+    }
+}
+
+@media(max-width:690px){
+    #navbar-contents{
+        display: none;
+    }   
+    #navbar-contents-690{
+        display: block;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background-color: #FFFFFF;
+        z-index: 5000;
+        border-bottom: 1px solid rgb(206, 205, 205);
+    }
+    #navbar-690-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        justify-content: space-between;
+    }
+    #nav-content-link-690{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    #company-logo-690{
+        color: red;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    #input-search{
+        border-radius: 28px 28px 28px 28px;
+        width: 95vw;
+        height: 50px;
+    }
+
+}

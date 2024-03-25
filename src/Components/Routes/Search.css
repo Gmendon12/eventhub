@@ -1,0 +1,262 @@
+#back-home{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 10px;
+}
+
+#back-home .back{
+    font-size: 16px;
+}
+
+#search-tab{
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 900;
+}
+
+#search-tab-contents-1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#search-location-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#location-icon{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#location{
+    font-size: 18px;
+    border-bottom: 3px gray solid;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+#search-contents{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-contents-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#search-icon{
+    font-size: 40px;
+}
+
+#search-input{
+    height: 60px;
+    font-size: 25px;
+    width: 30vw;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #eeedf2;
+}
+
+#search-input::placeholder{
+    height: 80px;
+    color: gray;
+    font-size: 30px;
+}
+
+#search-input:focus{
+    border: none;
+    border-bottom: 3px solid blue;
+    font-size: 25px ;
+}
+
+#search-grid{
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.search-grid-links{
+    display: flex;
+    justify-content: center;
+    background-color: #eeedf2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    border-radius: 12px;
+    color: black;
+}
+
+#search-popular-searches{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#search-popular-searches-text{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#search-popular-searches-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search-popular-searches-link{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: start;
+}
+
+#right-arrow{
+    font-size: 40px;
+}
+
+#search-contents-2{
+    width: 42%;
+    position: relative;
+}
+
+#search-contents-2-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-contents-img{
+    height: 200px;
+}
+
+.carousel-button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+#prev-button{
+    font-size: 40px;
+}
+
+#next-button{
+    font-size: 40px;
+    position: relative;
+}
+
+.search-contents-carousel{
+    text-align: justify;
+}
+
+.search-contents-carousel-head{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.e{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 0.45
+}
+
+.upcoming-events{
+    padding-top: 10px;
+}
+
+.upcoming-events-text{
+    color: red;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.upcoming-events-para{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.navigating-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:  1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigating-button .nav{
+    font-size: 30px;
+}
+
+@media(max-width:420px){
+    #search-tab{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column
+    }
+    #search-contents-2{
+        width: 100%;
+        padding-top: 50px;
+    }
+    #search-input{
+        height: 60px;
+        font-size: 25px;
+        width: 60vw;
+        outline: none;
+        border: none;
+        border-bottom: 3px solid #eeedf2;
+    }
+    #search-icon{
+        font-size: 30px;
+    }
+    .navigating-button .nav{
+        font-size: 25px;
+    }
+    #search-grid{
+        width: 90vw;
+    }
+    #search-contents-2-heading{
+        font-size: 22px;
+    }
+}
