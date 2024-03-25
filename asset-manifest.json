@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/eventhub/static/css/main.53bcc7d3.css",
+    "main.js": "/eventhub/static/js/main.8a27a61b.js",
+    "static/js/453.d855a71b.chunk.js": "/eventhub/static/js/453.d855a71b.chunk.js",
+    "static/media/other-3.jpg": "/eventhub/static/media/other-3.12e885f5e5554d669e58.jpg",
+    "static/media/other-2.jpg": "/eventhub/static/media/other-2.769940aa70f9f7aee3b3.jpg",
+    "static/media/other-1.jpg": "/eventhub/static/media/other-1.025cf03d2f623da48666.jpg",
+    "static/media/js.jpg": "/eventhub/static/media/js.c540fc1c42596cabc2e3.jpg",
+    "static/media/event.jpg": "/eventhub/static/media/event.cafa0d703f517fea7d00.jpg",
+    "static/media/chicago.jpg": "/eventhub/static/media/chicago.8824209618b301eb085b.jpg",
+    "static/media/london.jpg": "/eventhub/static/media/london.b5528d5a36e8bc61bdaa.jpg",
+    "static/media/NY.jpg": "/eventhub/static/media/NY.50bde052a9fc1497cf6e.jpg",
+    "static/media/dubai.jpg": "/eventhub/static/media/dubai.8e85660a97a02b8a662c.jpg",
+    "static/media/mumbai.jpg": "/eventhub/static/media/mumbai.d45ff0d0816cdab368a5.jpg",
+    "index.html": "/eventhub/index.html",
+    "main.53bcc7d3.css.map": "/eventhub/static/css/main.53bcc7d3.css.map",
+    "main.8a27a61b.js.map": "/eventhub/static/js/main.8a27a61b.js.map",
+    "453.d855a71b.chunk.js.map": "/eventhub/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53bcc7d3.css",
+    "static/js/main.8a27a61b.js"
+  ]
+}
